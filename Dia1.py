@@ -73,18 +73,18 @@
 #         contador +=1
 # print(contador)
 
-#Pide 5 números al usuario y muestra cuál es el mayor.
+# #Pide 5 números al usuario y muestra cuál es el mayor.
+#
+# numero1 = int(input("Dame el primer numero: "))
+# numero2 = int(input("Dame el segundo numero: "))
+# numero3 = int(input("Dame el tercer numero: "))
+# numero4 = int(input("Dame el cuarto numero: "))
+# numero5 = int(input("Dame el quinto numero: "))
+#
+# lista = [numero1, numero2, numero3, numero4, numero5]
+# listaordenada=sorted(lista)
+# print(listaordenada[-1])
 
-numero1 = int(input("Dame el primer numero: "))
-numero2 = int(input("Dame el segundo numero: "))
-numero3 = int(input("Dame el tercer numero: "))
-numero4 = int(input("Dame el cuarto numero: "))
-numero5 = int(input("Dame el quinto numero: "))
-
-lista = [numero1, numero2, numero3, numero4, numero5]
+# 13. Pide una contraseña y sigue preguntando hasta que el usuario escriba "python" .
 
 
-
-
-
-#13
