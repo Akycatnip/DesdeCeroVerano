@@ -86,5 +86,25 @@
 # print(listaordenada[-1])
 
 # 13. Pide una contraseña y sigue preguntando hasta que el usuario escriba "python" .
+#
+#
+# contrasena = "python"
+# userdice = ""
+#
+# while userdice != contrasena:
+#     userdice = input("Dime la contraseña: ")
+#     if userdice != contrasena:
+#         print("Contraseña incorrecta")
+#
+# print("¡Correcto!")
 
-
+# #Ejercicio 14 Crea una lista con 5 números y muestra todos los elementos.
+#
+# lista =[1,2,3,4,5]
+# print(lista[0], lista[1], lista[2], lista[3], lista[4])
+#
+#
+# Ejercicio 15
+# Calcula la suma de todos los elementos de una lista.
+lista =[1,2,3,4,5]
+print(sum(lista))
