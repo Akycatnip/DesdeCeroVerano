@@ -108,5 +108,28 @@
 # # Calcula la suma de todos los elementos de una lista.
 # lista =[1,2,3,4,5]
 # print(sum(lista))
+#
+# # Ejercicio 16 Encuentra el número más grande de una lista sin usar max() .
+# lista = [4,5,33,6,8,99,0]
+# ordenada = sorted(lista)
+# print(ordenada[-1])
 
-# Ejercicio 16
+#17 . Cuenta cuántos números pares hay en una lista.
+#
+# lista = [2,3,4,5,6,6]
+# par =0
+# for each in lista:
+#     if each % 2 == 0:
+#         par+=1
+# print(par)
+
+# 18. Ejercicio 18
+# # Crea una nueva lista que contenga solo los números mayores que 5.
+#
+# lista = [1,5,8,2,3,6,7]
+# mayor5lista = []
+# for each in lista:
+#     if each >5:
+#         mayor5lista.append(each)
+#
+# print(mayor5lista)
