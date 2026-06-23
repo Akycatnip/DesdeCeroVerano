@@ -68,26 +68,32 @@
 # print(esPar(lista))
 
 #Calcular la media
-lista = []
+# lista = []
+#
+# while True:
+#     entrada = input("Dame un número o escribe fin para terminar: ")
+#
+#     if entrada.lower() == "fin":
+#         break
+#
+#     numero = int(entrada)
+#     lista.append(numero)
+#
+# def sumar(lista):
+#     return sum(lista)
+# print(sumar(lista))
+#
+# def contar(lista):
+#     return len(lista)
+# print(contar(lista))
+#
+# def media(lista):
+#     return sumar(lista) / contar(lista)
+#
+# print(media(lista))
 
-while True:
-    entrada = input("Dame un número o escribe fin para terminar: ")
 
-    if entrada == "fin":
-        break
-
-    numero = int(entrada)
-    lista.append(numero)
-
-def sumar(lista):
-    return sum(lista)
-print(sumar(lista))
-
-def contar(lista):
-    return len(lista)
-print(contar(lista))
-
-def media(lista):
-    return sumar(lista) / contar(lista)
-
-print(media(lista))
+#Invertir una cadena
+# cadena = input ("Dime la cadena\n")
+# cadenaInvertida = cadena[::-1]
+# print(cadenaInvertida)
