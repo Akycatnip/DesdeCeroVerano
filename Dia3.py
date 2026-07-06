@@ -159,13 +159,14 @@ while True:
         numeros.append(numero)
 
     if opcion == "1":
-        def suma:
-
-
-
+        resultado = sum(numeros)
+        print("Resultado:", resultado)
 
     elif opcion == "2":
-        print("Resultado:", numeros[0]-numeros[1])
+        resultado = numeros[0]
+        for numero in numeros[1:]:
+            resultado -= numero
+        print("Resultado:", resultado)
 
     elif opcion == "3":
         print("Resultado", numeros[0]*numeros[1])

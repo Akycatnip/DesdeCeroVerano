@@ -102,8 +102,8 @@
 #
 # lista =[1,2,3,4,5]
 # print(lista[0], lista[1], lista[2], lista[3], lista[4])
-#
-#
+# for each in lista:
+#   print(each)
 # # Ejercicio 15
 # # Calcula la suma de todos los elementos de una lista.
 # lista =[1,2,3,4,5]
