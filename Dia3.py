@@ -176,3 +176,7 @@ while True:
 
     elif opcion == "4":
         print("Resultado:", numeros[0]/numeros[1])
+        resultado = numeros[0]
+        for numero in numeros[1:]:
+            resultado /= numero
+        print("Resultado", resultado)
