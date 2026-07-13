@@ -109,30 +109,120 @@
 # Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato dd/mm/aaaa y muestra por
 # pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día
 # o el mes se introduzcan con un solo carácter.
-fecha = input("Introduce la fecha de tu nacimiento en formato día/mes/año: ")
-dia = fecha[:fecha.find('/')]
-mesaño = fecha[fecha.find('/')+1:]
-mes = mesaño[:mesaño.find('/')]
-año = mesaño[mesaño.find('/')+1:]
-print('Día', dia)
-print('Mes', mes)
-print('Año', año)
-#
+# fecha = input("Introduce la fecha de tu nacimiento en formato día/mes/año: ")
+# dia = fecha[:fecha.find('/')]
+# mesaño = fecha[fecha.find('/')+1:]
+# mes = mesaño[:mesaño.find('/')]
+# año = mesaño[mesaño.find('/')+1:]
+# print('Día', dia)
+# print('Mes', mes)
+# print('Año', año)
+# #
 #
 # Ejercicio 10
 # Escribir un programa que pregunte por consola por los productos de una cesta de la compra, separados por comas,
 # y muestre por pantalla cada uno de los productos en una línea distinta.
-
-cesta = input('Introduce los productos de la cesta de la compra separados por comas: ')
-print(cesta.replace(',', '\n'))
 #
+# cesta = input('Introduce los productos de la cesta de la compra separados por comas: ')
+# print(cesta.replace(',', '\n'))
+# #
 #
 # Ejercicio 11
 # Escribir un programa que pregunte el nombre el un producto, su precio y un número de unidades y muestre por
 # pantalla una cadena con el nombre del producto seguido de su precio unitario con 6 dígitos enteros y 2 decimales,
 # el número de unidades con tres dígitos y el coste total con 8 dígitos enteros y 2 decimales.
 
-producto = input('Introduce el nombre del producto: ')
-precio = float(input('Introduce el precio unitario: '))
-unidades = int(input('Introduce el número de unidades: '))
-print('{producto}: {unidades:3d} unidades x {precio:09.2f}€ = {total:011.2f}€'.format(producto = producto, unidades = unidades, precio = precio, total = unidades * precio))
+# producto = input('Introduce el nombre del producto: ')
+# precio = float(input('Introduce el precio unitario: '))
+# unidades = int(input('Introduce el número de unidades: '))
+# print('{producto}: {unidades:3d} unidades x {precio:09.2f}€ = {total:011.2f}€'.format(producto = producto, unidades = unidades, precio = precio, total = unidades * precio))
+#
+# En dame_numero.py crea una función que pida un número por teclado y lo devuelva.
+# En caso de no introducir un número captura la excepción y muestra un mensaje de error hasta que
+# se introduzca un número válido. Usa parámetros por defecto.
+# def numeropati(numerodefecto=1):
+#     """Pide un número y lo devuelve. Absurdo, lo sé"""
+#     while True:
+#         try:
+#             numero = input("Dame el puto número\n")
+#             if numero == '':
+#                 return numerodefecto
+#             valor = int(numero)
+#             return valor
+#         except ValueError:
+#             print("Eso no es un número pare mío")
+#
+# print (numeropati(""))
+#
+# En dame_numero_entero.py crea una función que pida un número entero por teclado y lo devuelva.
+# En caso de no introducir un número entero captura la excepción y muestra un mensaje de error hasta que
+# se introduzca un número entero válido.
+# def dame_numero_entero(numero_entero=1):
+#     while True:
+#         try:
+#             numero=input("Ingrese un numero entero: ")
+#             entero=int(numero)
+#             return entero
+#         except ValueError:
+#             print("Ingrese un numero entero valido")
+# print(dame_numero_entero())
+# #
+#
+# En dame_entero_positivo.py crea una función que pida un número entero positivo por teclado y lo devuelva.
+# En caso de no introducir un número entero positivo captura la excepción y muestra un mensaje de error hasta
+# que se introduzca un número entero positivo válido.
+# def entero_positivo(numero = 1):
+#     while True:
+#         try:
+#             numero = input("Dime el numero entero y positivo nunca negativo\n")
+#             comprueba=int(numero)
+#             if comprueba>0:
+#                 return comprueba
+#         except ValueError:
+#             print("El número tiene que ser entero y positivo\n")
+#
+# print(entero_positivo())
+
+#
+#
+# En dame_positivo.py crea una función que pida un número positivo por teclado y lo devuelva.
+# En caso de no introducir un número positivo captura la excepción y muestra un mensaje de error hasta que se
+#
+#
+# def dame_positivo(numero = 1):
+#     while True:
+#         try:
+#             numero = input("Dame positivo: \n")
+#             positivo = int(numero)
+#             if positivo >0:
+#                 return positivo
+#             else:
+#                 print("El número es negativo")
+#         except ValueError:
+#             print("Ingrese un numero valido")
+#
+# print(dame_positivo())
+#
+#
+# En divide.pycrea una función que devuelva la división de dos valores. Lanza/captura todos los errores posibles,
+# incluída la falta de parámetros. Usa el código que se adjunta y analiza qué ocurre al comentar los distintos
+# bloques de except.
+#
+# def divide_numeros(dividendo, divisor):
+#     """
+#     Devuelve la división de dos valores
+#
+#     :param dividendo: dividendo
+#     :param divisor: divisor
+#     :return: cociente de dos valores
+#     """
+#     try:
+#         return dividendo / divisor
+#     except ZeroDivisionError:
+#         return "Error: División por cero no permitida."
+#     except TypeError:
+#         return "Error: Ambos valores deben ser números."
+#     except Exception as e:
+#         return f"Error inesperado: {e}"
+#
+# print(divide_numeros(2,3))
