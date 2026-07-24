@@ -49,6 +49,22 @@
 # 4. "suma_numeros.py" Pide el número de iteraciones.
 # En cada iteración pide un número y al final muestra la suma de los números positivos,
 # la suma de los negativos y cuántos ceros se han introducido.
+# iteraciones = int(input("Dime el número de iteraciones:\n"))
+# positivos = 0
+# negativos = 0
+# ceros = 0
+# for i in range(iteraciones):
+#     numero = int(input("Dame un número\n"))
+#
+#     if numero == 0:
+#         ceros += 1
+#     elif numero < 0:
+#         negativos += numero
+#     else:
+#         positivos += numero
+# print(f"positivos = {positivos}, negativos = {negativos}, ceros = {ceros}")
+
+
 
 
 # 5. "contador_numeros.py" Realizar un algoritmo que pida números (se pedirá por teclado la cantidad de números a introducir). El programa debe informar de cuantos números introducidos son mayores que 0, menores que 0 e iguales a 0.
